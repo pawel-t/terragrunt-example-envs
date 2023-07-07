@@ -32,3 +32,10 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Terragrunt related
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+.terraform
+.terragrunt-cache
