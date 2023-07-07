@@ -6,11 +6,11 @@ remote_state {
   }
   config = {
     disable_bucket_update = true
-    bucket                = "pawel-udemy-course-tf-state"
+    bucket                = "some-terraform-state-for-vaults"
     key                   = "vault/${path_relative_to_include()}/terraform.tfstate"
     encrypt               = true
     region                = "eu-central-1"
-    dynamodb_table        = "pawel-udemy-cours-tf-locks"
+    dynamodb_table        = "some-terraform-locks-for-vaults"
     profile               = "default"
   }
 }
